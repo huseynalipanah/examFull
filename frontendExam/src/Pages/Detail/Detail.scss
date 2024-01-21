@@ -1,0 +1,93 @@
+.detail-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  font-family: "Poppins", sans-serif;
+
+    .detail-card {
+      position: relative;
+      padding: 35px 15px 0 15px;
+      background-color: #2b2b2b;
+      .card-txt {
+        width: 100%;
+        position: absolute;
+        top: 15%;
+        left: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        justify-content: center;
+        .card-header {
+          font-size: 14px;
+          color: white;
+          margin-bottom: 10px;
+        }
+        h1 {
+          color: #99ffee;
+          font-size: 30px;
+          margin-bottom: 20px;
+        }
+        .card-price {
+          font-size: 21px;
+          font-weight: bold;
+          color: white;
+          margin-bottom: 20px;
+        }
+        .buttons {
+          display: flex;
+          button {
+            margin: 0 10px;
+            font-size: 14px;
+            line-height: 50px;
+            background-color: #7d1eff;
+            padding: 0 20px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            transition: 500ms;
+            margin-bottom: 20px;
+            cursor: pointer;
+            &:hover {
+              background-color: #a768ff;
+            }
+          }
+          a{
+            margin: 0 10px;
+            font-size: 14px;
+            line-height: 50px;
+            background-color: #7d1eff;
+            padding: 0 20px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            transition: 500ms;
+            margin-bottom: 20px;
+            cursor: pointer;
+            &:hover {
+              background-color: #a768ff;
+            }
+          }
+        }
+      }
+      .card-img {
+        max-width: 100%;
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  
